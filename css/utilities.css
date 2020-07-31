@@ -1,0 +1,155 @@
+/* Text colors */
+.text-primary
+{
+    color: #28a745;
+}
+.text-secondary
+{
+    color: royalblue;
+}
+.bg-secondary
+{
+    background-color: #028da0;
+}
+.btn
+{
+    /* background-color: #28a745; */
+    color: #f4f4f4;
+    border-radius: 5%;
+    padding: 10px 20px;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn-primary,.bg-primary
+{
+    background-color: #28a745;
+    color: #f4f4f4;
+}
+.btn-secondary,.bg-secondary
+{
+    background-color:#028da0 ;
+    color: #f4f4f4;
+}
+.btn-light, .bg-light
+{
+    background-color: #f4f4f4;
+    color: #333333;
+}
+.btn-dark,.bg-dark
+{
+background-color: #333333;
+color: #f4f4f4;
+}
+.btn-outline
+{
+
+border: #f4f4f4 solid 2px;
+}
+
+.flex-inverse
+{
+    flex-direction: row-reverse;
+}
+/* Mobile */
+@media(max-width: 768px)
+{
+    
+    .navbar
+    {
+         flex-direction: column; 
+         height:100px;
+         padding: 20px;
+    }
+    .mainHeader .content{
+        padding-top: 100px;
+        align-items: center;
+        text-align: center;
+    }
+    /* icons */
+    .flex-items
+    {
+        flex-direction: column;
+    }
+    /* sevices */
+    .flex-services
+    {
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .flex-services div{
+        width: 100%;
+    }
+    #service-content
+{
+    padding: 40px 20px;
+}
+#service-content p
+{
+    text-align: justify;
+}
+/* cases */
+.case-row1
+{
+    flex-direction: column;
+     flex: 100%;
+}
+.case-row1 img
+{
+    width: 100%;
+    height: 100%;
+}
+.case-row1 div{
+    width: 100%;
+    /* padding: 0 5px; */
+}
+.case-row2
+{
+    flex-direction: column;
+     flex: 100%;
+}
+.case-row2 img
+{
+    width: 100%;
+    height: 100%;
+}
+.case-row2 div{
+    width: 100%;
+    /* padding: 0 5px; */
+}
+/* Blog Section */
+.flex-blog
+{
+ flex-direction: column;
+}
+.flex-blog div
+{
+    width: 100%;
+}
+#blog-content
+{
+    padding: 40px 20px;
+}
+/* Professional Section */
+.flex-professional-img
+{
+    flex-direction: column;
+    text-align: center;
+}
+.flex-professional-img img{
+    border-radius: 50%;
+    padding: 10px 10px;
+    width: 70%;
+    text-align: center;
+}
+/* Request callback section */
+.request-flex
+{
+  flex-direction: column;
+}
+.request-flex div
+{
+    width: 100%;
+}
+}
